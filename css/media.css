@@ -1,0 +1,149 @@
+@media screen and (max-width:640px){
+    /* footer section */
+    .footerleft{
+        width: 100%;
+    }
+    .footercenter{
+        width: 100%;
+    }
+    .footerright{
+        width: 100%;
+    }
+    .footerlowerright{
+        margin: auto;
+        li{
+            font-size: 12px;
+        }
+    }
+    .footerlowerleft{
+        margin: auto;
+    }
+}
+@media screen and (min-width:641px) and (max-width:1024px){
+    /* footer section */
+    .footerleft{
+        width: 100%;
+    }
+    .footercenter{
+        width: 50%;
+    }
+    .footerright{
+        width: 50%;
+    }
+    
+
+}
+@media screen and (max-width:768px){
+    /* latest section */
+    .latest_left_header p{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:1024px){
+    /* header section */
+    .header .nav ul, .header .nav button{
+        display: none;
+    }
+    .headerinner{
+        display: block;
+    }
+    .headerleft{
+        width: 90%;
+        margin: auto;
+    }
+    .headerleft button{
+        width: 200px;
+        /* display: flex; */
+    }
+    .headerright{
+        position: relative;
+        top: -15px;
+        left: 10px;
+        width: 90%;
+        margin: auto;
+    }
+    .headerright .picture{
+        transform: rotate(0deg);
+    }
+    .nav .list{
+        display: inline;
+    }
+    /* latest section */
+    .stick{
+        position: static;
+    }
+    .latest_inner{
+        display: block;
+    }
+    .latest_left{
+        width: 95%;
+        overflow: auto;
+    }
+    #but{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        /* margin: auto; */
+    }
+    .latest_left_header p{
+        margin-right: 25px;
+    }
+    .latest_right{
+        width: 90%;
+        margin: auto;
+    }
+    /* authors section */
+    .authorsinner{
+        display: block;
+    }
+    .authorstemplete{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    /* join section */
+    .joininner{
+        display: block;
+    }
+    .joinleft{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .joinright{
+        width: 90%;
+        margin: auto;
+    }
+    /* footer section */
+    
+
+}
+@media screen and (min-width:1024px){
+    /* authors section */
+    .authorsinner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .authorstemplete{
+        width: 45%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:1200px){
+    .footerlowerright{
+        margin: auto;
+    }
+    .footerlowerleft{
+        margin: auto;
+    }
+}
+@media screen and (min-width:1200px){
+    .authorstemplete{
+        width: 28%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
