@@ -1,4 +1,8 @@
 @media screen and (max-width:640px){
+    /* header section */
+    .headerinner .headerleft p{
+        font-size: 65px;
+    }
     /* footer section */
     .footerleft{
         width: 100%;
